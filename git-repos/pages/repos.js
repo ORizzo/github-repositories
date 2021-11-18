@@ -8,7 +8,7 @@ export default function repos() {
     fetcher
   );
   if (error) return <div>Failed to load</div>; // continuar estilizando os cards com os repos e continuar o desenvolvimento
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <div>Loading...</div>; // mudar de tailwind para chakraui pois tem mlr integração
   const repos = data.map((repo) => 
   <div>
       <h2 className="bg-gray-400">{repo.name}</h2>
