@@ -23,4 +23,4 @@
 
 ### Exemplo:
 
-![github.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31367052-e514-4af1-b856-f08f5939bc35/github.jpg)
+<img src="github.JPG">
