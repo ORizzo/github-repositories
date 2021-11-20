@@ -2,7 +2,8 @@ import { Box, Icon, Badge, Button, useToast } from "@chakra-ui/react";
 import { BsGithub } from "react-icons/bs";
 import { useClipboard } from "@chakra-ui/hooks";
 import { MdContentCopy } from "react-icons/md";
-export default function GitCard(props): JSX.Element {
+
+const GitCard = (props): JSX.Element => {
   const repo = props.info;
   const { hasCopied, onCopy } = useClipboard(`git clone ${repo.clone_url}`);
   const toast = useToast();
@@ -57,4 +58,5 @@ export default function GitCard(props): JSX.Element {
       </Box>
     </Box>
   );
-}
+};
+export default GitCard;
