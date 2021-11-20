@@ -15,5 +15,5 @@ export default function GitRepos() {
   const repos = data.map((repo) => (
     <GitCard key={repo.id} info={repo}></GitCard>
   ));
-  return <SimpleGrid columns={2}>{repos}</SimpleGrid>;
+  return <SimpleGrid columns={{ sm: 1, md: 2 }}>{repos}</SimpleGrid>;
 }
