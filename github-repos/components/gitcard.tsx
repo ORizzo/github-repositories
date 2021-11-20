@@ -5,16 +5,16 @@ import { MdContentCopy } from "react-icons/md";
 export default function GitCard(props): JSX.Element {
   const repo = props.info;
   const { hasCopied, onCopy } = useClipboard(`git clone ${repo.clone_url}`);
-  const toast = useToast()
-  function CloningRepo(){
-    onCopy()
+  const toast = useToast();
+  function CloningRepo(): void {
+    onCopy();
     toast({
       title: "Repositório clonado.",
       description: "O link para clonar o repositório foi copiado.",
       status: "success",
       duration: 4000,
       isClosable: true,
-    })
+    });
   }
   return (
     <Box
