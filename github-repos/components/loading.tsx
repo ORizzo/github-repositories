@@ -21,8 +21,8 @@ const Loading = (): JSX.Element  => {
           lineHeight="tight"
           isTruncated>
           <SkeletonCircle my={4} ml={2}></SkeletonCircle>
-          <Skeleton height="3" m={2}></Skeleton>
-          <Skeleton height="3" m={2}></Skeleton>
+          <Skeleton height="2" m={2}></Skeleton>
+          <Skeleton height="2" m={2}></Skeleton>
         </Box>
       </Box>
     </Box>
