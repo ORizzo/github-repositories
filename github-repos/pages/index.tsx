@@ -17,6 +17,10 @@ export default function GitRepos() {
       <SimpleGrid columns={{ sm: 1, md: 2 }}>
         <Loading></Loading>
         <Loading></Loading>
+        <Loading></Loading>
+        <Loading></Loading>
+        <Loading></Loading>
+        <Loading></Loading>
       </SimpleGrid>
     );
   const repos = data.map((repo) => (
