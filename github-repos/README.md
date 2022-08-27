@@ -1,7 +1,6 @@
 <img src="githublogo.png">
-## Api que lista os repositórios junto com link de clone.
 
----
+## Api que lista os repositórios junto com link de clone.
 
 ### Tecnologias
 
@@ -11,8 +10,6 @@
 - Axios
 - ChakraUi
 - Api do GitHub
-
----
 
 ## Foco na Vercel devido a sua rapidez e o peso menor.
 
